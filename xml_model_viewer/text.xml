@@ -1,0 +1,13 @@
+<xml>
+    <cdm>
+        <element xmi:id="ABCD"></element>
+        <element xmi:id="ABCDE"></element>
+        <element xmi:id="ABCDEF"></element>
+    </cdm>
+    <ldm>
+        <element xmi:id="ABCDEFG" type="ABCD"></element>
+        <element xmi:id="ABCDEFGH" realizes="ABCD"></element>
+        <element xmi:id="ABCDEFGHI" realizes="ABCDEFGH" type="ABCDE"></element>
+    </ldm>
+    <pdm></pdm>
+</xml>
